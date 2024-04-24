@@ -1,0 +1,11 @@
+.row .row .col-sm-3 .card-p-2 {
+    /* display: flex; */
+    margin-bottom:10vh;
+}
+  
+.row .row .col-sm-3 .card-p-2 img{
+    width: 100%; /* atau height: 100%; tergantung pada kebutuhan Anda */
+    object-fit: cover; /* untuk memastikan gambar mengisi area dengan mempertahankan aspek rasio */
+    aspect-ratio: 3 / 4; /* untuk memastikan aspek rasio gambar adalah 1:1 */
+    border: 1px solid #666666; /* tambahkan bingkai jika diinginkan */
+}
